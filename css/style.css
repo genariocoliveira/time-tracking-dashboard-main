@@ -1,0 +1,29 @@
+:root {
+    --Blue: hsl(246, 80%, 60%);
+    --Light-red-work: #ff8c66;
+    --Soft-blue-play: hsl(195, 74%, 62%);
+    --Light-red-study: #ff5c7c;
+    --Lime-green-exercise: #4acf81;
+    --Violet-social: hsl(264, 64%, 52%);
+    --Soft-orange-self-care: hsl(43, 84%, 65%);
+
+    --Very-dark-blue: hsl(226, 43%, 10%);
+    --Dark-blue: hsl(235, 46%, 20%);
+    --Desaturated-blue: hsl(235, 45%, 61%);
+    --Pale-Blue: hsl(236, 100%, 87%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #0d1323;
+    font-family: 'Rubik', sans-serif;
+}
+p{
+    color: var(--Pale-Blue);
+}
+.active{
+    color: #fff;
+}
